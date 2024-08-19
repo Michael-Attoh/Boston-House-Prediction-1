@@ -79,7 +79,7 @@ plt.show()
 
 ### Relationship Between Population and Prices
 ```python
-sns.regplot(x='LSTAT', y='MEDV', data = boston, fit_reg=True) # this fits a linear regression line to data
+sns.regplot(x='LSTAT', y='MEDV', data = boston, fit_reg=True) 
 plt.title('Relationship Between Population and Prices')
 plt.show()
 ```
@@ -87,7 +87,7 @@ plt.show()
 
 ### Relationship Between Nitric Oxide and Prices
 ```python
-sns.regplot(x='NOX', y='MEDV', data = boston, fit_reg=True) # this fits a linear regression line to data
+sns.regplot(x='NOX', y='MEDV', data = boston, fit_reg=True) 
 plt.title('Relationship Between Nitric Oxide and Prices')
 plt.show()
 ```
